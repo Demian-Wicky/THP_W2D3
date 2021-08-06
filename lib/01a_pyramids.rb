@@ -7,6 +7,7 @@ def ask_ramsesII
     nb_floors = gets.chomp.to_s
 
     if nb_floors.to_i > 0 && nb_floors.to_i <=25 then # seule réponse valide
+      puts "Voilà ta pyramide l'ami:"
       return nb_floors.to_i
 
     elsif nb_floors.to_i > 25 # si supérieur à 25
@@ -27,7 +28,6 @@ def ask_ramsesII
     end
   end
 
-  return nb_floors.to_i
 end
 
 def build_pyramid(nb_floors)
