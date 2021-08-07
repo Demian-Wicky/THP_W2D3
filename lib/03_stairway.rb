@@ -41,25 +41,32 @@ end
 
 ###########################################################
 
-def perform
+
+def game
   start_text
-  gets
+   gets
   position = 1
+  turns_counter = 0
     while position != 10
       dice_value = throw_dice
       step = move(dice_value)
       position = position + step
-      if position <= 0
+      if position <= 0                      # pour ne pas pouvoir aller au sous-sol
         position = 1
         puts "TU NE PEUX PAS DESCENDRE PLUS BAS !"
       end
       puts "TU ES SUR LA MARCHE #{position}"
-      gets
+      turns_counter += 1                    # compteur de tours
+       gets
     end
+
+    puts "ⓘ  Il a fallu #{turns_counter} tours pour monter les escaliers." # affichage final compteur de tours
+
 end
 
-perform
 
+
+game
 
 
 
