@@ -2,7 +2,7 @@ def start_text
   puts
   puts "⭐🌟⭐🌟⭐ BIENVENUE DANS DICEY STAIRWAYS ⭐🌟⭐🌟⭐"
   puts
-  puts "ⓘ Parviens à raire monter le scarabée 🪲  au sommet de l'escalier !"
+  puts "ⓘ Parviens à faire monter le scarabée 🪲  au sommet de l'escalier !"
   puts "       Tu lanceras un dé 🎲 à chaque tour :"
   puts "       5️⃣  ou 6️⃣  : Tu montes d'une marche"
   puts "       1️⃣  : Tu descends d'une marche"
