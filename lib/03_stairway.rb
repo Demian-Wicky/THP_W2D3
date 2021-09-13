@@ -4,8 +4,8 @@ def start_text
   puts
   puts "ⓘ Parviens à faire monter le scarabée 🪲  au sommet de l'escalier !"
   puts "       Tu lanceras un dé 🎲 à chaque tour :"
-  puts "       5️⃣  ou 6️⃣  : Tu montes d'une marche"
-  puts "       1️⃣  : Tu descends d'une marche"
+  puts "       5️⃣  ou 6️⃣ : Tu montes d'une marche"
+  puts "       1️⃣ : Tu descends d'une marche"
   puts "       2️⃣  ou 3️⃣  ou 4️⃣ : Tu restes sur place"
 end
 
@@ -125,7 +125,7 @@ end
 #######       RUN ONE OF THOSE THREE FUNCTIONS       ######
 ###########################################################
 
-real_game            ### runs turn by turn
+real_game            ### runs game turn by turn (with 4K HD GRAPHICS)
 #game                 ### runs auto
 #average_finish_time
 
