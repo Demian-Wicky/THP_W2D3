@@ -125,9 +125,9 @@ end
 #######       RUN ONE OF THOSE THREE FUNCTIONS       ######
 ###########################################################
 
-real_game            ### runs game turn by turn (with 4K HD GRAPHICS)
+#real_game            ### runs game turn by turn (with 4K HD GRAPHICS)
 #game                 ### runs auto
-#average_finish_time
+average_finish_time
 
 ###########################################################
 ###########################################################
